@@ -1,0 +1,30 @@
+.thankYouSection {
+   margin: 4rem;
+}
+
+.thankYouImg {
+   width: 500px;
+   height: 350px;
+   margin: auto;
+}
+
+.thankYouImg img {
+   margin-left: -30px;
+}
+
+@media (max-width: 480px) {
+   .thankYouSection {
+      margin: 2rem;
+   }
+
+   .thankYouImg {
+      width: 100%;
+      height: 200px;
+      margin: auto;
+   }
+
+   .thankYouImg img {
+      width: 100%;
+      margin-left: 0;
+   }
+}

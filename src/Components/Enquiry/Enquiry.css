@@ -1,0 +1,66 @@
+.enquiryFormSection {
+   height: 100vh;
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.7);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   z-index: 999;
+   overflow: unset
+}
+
+.closeSection {
+   float: right;
+
+   svg {
+      color: #074777;
+   }
+}
+
+.enquiryFormContainer {
+   border: 3px solid #074777;
+   background-color: white;
+   width: max-content;
+   height: max-content;
+   padding: 30px;
+   border-radius: 10px;
+}
+
+.enquiryFormContainer {
+
+   .row {
+      padding: 0;
+   }
+
+   img {
+      margin: auto;
+   }
+
+   label {
+      padding-left: 3px;
+   }
+
+   input {
+      border-radius: 5px;
+      outline: none;
+      border: 2px solid #074777 !important;
+      padding: 2px;
+   }
+
+   .contentHeading {
+      text-align: center;
+      justify-content: center;
+      color: #074777;
+   }
+
+   button {
+      margin-top: 10px;
+      padding: 2px 20px;
+      border: none;
+      background-color: #074777;
+      color: white;
+      font-weight: 600;
+      border-radius: 5px;
+   }
+}

@@ -1,0 +1,128 @@
+.linkSection {
+   position: sticky;
+   top: -1px;
+   z-index: 99;
+   background-color: white;
+}
+
+a {
+   text-decoration: none;
+   color: #666666;
+   cursor: pointer;
+}
+
+.linkSection {
+   height: 50px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 15px -5px;
+   /* rgba(0, 0, 0, 0.3) 0px 8px 16px -8px */
+}
+
+.linkContainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.parentLink {
+   /* display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 10px; */
+   padding: 0 10px;
+   width: 80%;
+   margin: auto;
+   display: flex;
+}
+
+.recuiterLink {
+   padding: 0 10px;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+
+   .links svg {
+      height: 25px;
+      width: 25px;
+   }
+}
+
+.links svg {
+   height: 12px;
+   width: 12px;
+}
+
+.links {
+   list-style: none;
+   width: max-content;
+   height: 50px;
+   font-weight: 600;
+   color: #666666;
+   font-size: 13pt;
+   position: relative;
+   padding: 10px;
+   display: inline-block;
+   margin-right: 1.5rem;
+   cursor: pointer;
+}
+
+.links:last-child {
+   margin-right: 0rem;
+}
+
+.links:hover {
+   color: #074777 !important;
+}
+
+.links::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 3px;
+   background-color: #074777;
+   transition: width 2s ease;
+}
+
+.links:hover::after {
+   width: 100%;
+}
+
+.courses:hover {
+   .childCourses {
+      display: block;
+      position: absolute;
+      z-index: 9;
+      background-color: white;
+   }
+}
+
+.childCourses {
+   display: none;
+   margin-top: 15px;
+   position: relative;
+   width: max-content;
+   margin-left: -100px;
+   padding: 10px;
+   font-weight: 500;
+   font-size: 12pt;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 10px;
+}
+
+.freeDemo {
+   background-color: forestgreen;
+   color: white;
+
+   a {
+      color: white;
+   }
+}
+
+.freeDemo:hover {
+   color: white !important;
+}
+
+.coursesName:hover {
+   color: #074777;
+}

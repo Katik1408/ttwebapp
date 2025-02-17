@@ -1,0 +1,241 @@
+.courseShowCase {
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   border-radius: 10px;
+}
+
+.courseHeading {
+   margin: auto;
+}
+
+.courseShowCase .courseMode {
+   font-size: 1.5rem;
+}
+
+.courseImgSec {
+   border-radius: 10px 10px 0 0;
+   background-color: #074777;
+   overflow: hidden;
+}
+
+.courseImgSec .courseImg {
+   width: 100%;
+   animation: scaleAnimation 4s ease-in-out infinite;
+   overflow: hidden;
+}
+
+.bookDemo {
+   color: white;
+   border: none;
+   background-color: forestgreen;
+   border: 2px solid forestgreen;
+   padding: 1px 20px;
+   border-radius: 5px;
+   font-weight: 600;
+}
+
+.courseBtnSection {
+   font-size: 1rem;
+   display: flex;
+   justify-content: space-between;
+   width: 50%;
+   margin: auto;
+   padding: 10px 0;
+
+   .enquiryBtn {
+      border: none;
+      color: #074777;
+      border: 2px solid #074777;
+      background-color: transparent;
+      font-weight: 600;
+      padding: 1px 20px;
+      border-radius: 5px;
+   }
+
+   .enrollmentBtn {
+      padding: 1px 20px;
+      border-radius: 5px;
+      border: none;
+      font-weight: 600;
+      color: white;
+      border: 2px solid #074777;
+      background-color: #074777;
+
+   }
+}
+
+@keyframes scaleAnimation {
+   0% {
+      transform: scale(1.03);
+   }
+
+   50% {
+      transform: scale(1.07);
+   }
+
+   100% {
+      transform: scale(1.03);
+   }
+}
+
+.aboutDataScienceSection {
+   width: 100%;
+
+   .courseNavBar {
+      z-index: 4;
+      position: sticky;
+      top: 48px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 6px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      background-color: white;
+   }
+
+   .courseNavBar .container {
+      display: flex;
+      justify-content: space-between;
+
+      .courseNavBarLink {
+         width: max-content;
+
+      }
+   }
+}
+
+.contentSubHeading {
+   font-size: 20pt;
+   font-weight: 600;
+   display: flex;
+   flex-direction: column;
+
+   img {
+      height: 25px;
+      width: 200px;
+   }
+}
+
+.rightFinger svg {
+   float: right;
+   color: #074777;
+}
+
+.sec1 row {
+   display: flex;
+   flex-direction: row;
+}
+
+.syllabusSec {
+   margin: auto;
+   width: 100%;
+   height: 400px;
+   border: 2px solid #074777;
+   overflow-y: scroll;
+   padding-bottom: 10px;
+   border-radius: 3px;
+}
+
+.mainSyllabusHeading {
+   padding: 5px 20px;
+   background-color: #074777;
+   color: white;
+   font-weight: 600;
+}
+
+.syllabusModuleName {
+   margin: 0 20px;
+   border-bottom: 1px solid #e4e3e3;
+   background-color: white;
+   padding: 5px 10px;
+}
+
+.syllabusModuleName:last-child {
+   border-bottom: none;
+}
+
+.upcommingCourseCard {
+   border: 2px solid #074777;
+   border-radius: 10px;
+   width: 30%;
+   margin: auto;
+   padding: 20px;
+   text-align: center;
+
+}
+
+.batchDays {
+   font-size: 0.75rem;
+   color: #2389f2;
+   display: grid;
+}
+
+.batchTime {
+   font-size: 0.75rem;
+   color: #f5585b;
+   display: grid;
+}
+
+.trainerDescSec {
+   display: flex;
+
+   .trainerDetails {
+      width: 20%;
+      margin: auto;
+
+      .imgOfTrainer {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+
+      .trainerName,
+      .trainerExp,
+      .trainerSpecialist,
+      .lang {
+         text-align: center;
+      }
+
+      .imgOfTrainer svg {
+         height: 50px;
+         width: 50px;
+      }
+   }
+
+   .devider {
+      width: 2%;
+      margin: auto;
+
+      .line {
+         height: 250px;
+         width: 2px;
+         background-color: #e4e3e3;
+      }
+   }
+
+   .trainerDesc {
+      width: 75%;
+   }
+}
+
+.keyLine {
+   height: 30px;
+   align-items: center;
+   display: flex;
+
+   svg {
+      color: #074777;
+      margin: 0 10px;
+   }
+}
+
+.accordion-button {
+   color: black;
+}
+
+.accordion-button:not(.collapsed) {
+   color: black;
+}
+
+.accordion-button:focus {
+   box-shadow: none;
+   z-index: 1 !important;
+}

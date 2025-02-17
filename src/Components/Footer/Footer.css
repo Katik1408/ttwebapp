@@ -1,0 +1,85 @@
+.footerSection {
+   background: radial-gradient(circle, rgba(7, 71, 119, 1) 0%, rgba(7, 38, 61, 1) 100%);
+   padding: 4rem 0 1rem 0;
+}
+
+.lastFooterSection .socialSection svg {
+   height: 30px;
+   width: 30px;
+   margin-right: 10px;
+   transition: all .2s ease-in-out;
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.lastFooterSection .socialSection svg:hover {
+   transform: scale(1.2);
+   color: white;
+}
+
+.footerTopSection {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footerContent h4 {
+   color: white;
+}
+
+.footerContent p {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.middleFooterSection a,
+.lastFooterSection a {
+   color: rgba(255, 255, 255, 0.6);
+   text-decoration: none;
+
+}
+
+.firstFooterSection {
+   width: 33%;
+}
+
+.middleFooterSection {
+   width: 25%;
+}
+
+.footerContent hr {
+   color: white;
+   height: 2px;
+}
+
+.middleFooterLinks {
+   display: grid;
+   padding: 5px 0 20px 0;
+
+}
+
+.footerLink {
+   color: white;
+   text-decoration: none;
+   height: 30px;
+}
+
+.footerLink:hover {
+   color: white;
+   cursor: pointer;
+}
+
+.footerSection {
+   position: absolute;
+   position: sticky;
+   z-index: 9;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {}
+
+@media (max-width: 480px) {
+   .footerTopSection {
+      display: grid;
+   }
+
+   .firstFooterSection {
+      width: auto;
+   }
+}

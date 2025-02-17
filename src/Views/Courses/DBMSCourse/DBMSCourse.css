@@ -1,0 +1,32 @@
+.courseShowCase {
+   background-color: white;
+}
+
+.courseImgSec img {
+   height: 300px;
+}
+
+.aboutDBMSSection {
+   width: 100%;
+
+   .courseNavBar {
+      z-index: 4;
+      position: sticky;
+      top: 48px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 6px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+      background-color: white;
+   }
+
+   .courseNavBar .container {
+      display: flex;
+      justify-content: space-between;
+
+      .courseNavBarLink {
+         width: max-content;
+
+      }
+   }
+}

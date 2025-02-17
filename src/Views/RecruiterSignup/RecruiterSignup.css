@@ -1,0 +1,214 @@
+.signupForm {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+}
+
+.signupForm form {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 15px 30px 20px 30px;
+   width: 50vw;
+   border-radius: 10px;
+
+   .contentHeading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   label {
+      padding-left: 10px;
+      color: #074777;
+   }
+
+   input {
+      width: 100%;
+      padding: 2px 10px;
+      border-radius: 5px;
+      border: 2px solid #074777;
+      color: #074777;
+      font-weight: 500;
+      margin-bottom: -3px;
+   }
+
+   .ErrSection {
+      color: red;
+      font-size: 13px;
+      padding-left: 10px;
+      height: 15px;
+   }
+
+   svg {
+      cursor: pointer;
+   }
+
+   .input::placeholder {
+      color: #074777 !important;
+   }
+
+   .eyeBtn {
+      position: absolute;
+      margin-left: -25px;
+   }
+
+   .frgtPass {
+      display: flex;
+      justify-content: right;
+      cursor: pointer;
+   }
+
+   .loginBtn {
+      cursor: pointer;
+      color: #074777 !important;
+   }
+
+   .signupBtn {
+      width: 100%;
+      border: 2px solid #074777;
+      background-color: #074777;
+      color: white;
+      font-weight: 600;
+      padding: 2px 20px;
+      border-radius: 5px;
+   }
+
+   .cancelBtn {
+      width: 100%;
+      border: 2px solid #074777;
+      background-color: white;
+      color: #074777;
+      font-weight: 600;
+      padding: 2px 20px;
+      border-radius: 5px;
+   }
+
+   span {
+      color: #074777;
+      font-weight: 500;
+   }
+
+   hr {
+      color: #074777 !important;
+      height: 2px;
+      opacity: 1;
+   }
+
+   .radioBtnSection {
+      .radioBtnRow {
+         width: 80%;
+         margin: auto;
+         justify-content: space-between;
+         display: flex;
+         text-align: center;
+         align-items: center;
+      }
+
+      input {
+         width: max-content;
+         display: inline-block;
+         justify-content: space-evenly;
+      }
+   }
+
+   .dropdown-toggle {
+      background-color: transparent;
+      border: 2px solid #074777;
+      color: gray;
+      padding: 2px 10px;
+      width: 100%;
+      text-align: left;
+   }
+
+   .dropdown-toggle::after {
+      float: inline-end;
+      margin-top: .6rem;
+   }
+
+   .dropdown-menu {
+      width: 100%;
+      border: 2px solid #074777;
+   }
+
+   .btn-primary {
+      background-color: transparent !important;
+      color: gray;
+   }
+
+   .btn-primary:focus {
+      box-shadow: none !important;
+      color: gray;
+   }
+}
+
+.verifyEmailId {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+}
+
+.verifyEmailId form {
+   width: 30vw;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 15px 30px 20px 30px;
+   border-radius: 10px;
+
+   .contentHeading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   label {
+      padding-left: 10px;
+      color: #074777;
+   }
+
+   input {
+      width: 100%;
+      padding: 2px 10px;
+      border-radius: 5px;
+      border: 2px solid #074777;
+      color: #074777;
+      font-weight: 500;
+      margin-bottom: -3px;
+   }
+
+   .backBtn {
+      width: 100%;
+      border: 2px solid #074777;
+      background-color: white;
+      color: #074777;
+      font-weight: 600;
+      padding: 2px 20px;
+      border-radius: 5px;
+   }
+
+   .verifyBtn {
+      width: 100%;
+      border: 2px solid #074777;
+      background-color: #074777;
+      color: white;
+      font-weight: 600;
+      padding: 2px 20px;
+      border-radius: 5px;
+   }
+
+   hr {
+      color: #074777 !important;
+      height: 2px;
+      opacity: 1;
+   }
+
+   .EmailId {
+      font-weight: 600;
+   }
+
+   .ErrSection {
+      color: red;
+      font-size: 13px;
+      padding-left: 10px;
+      height: 15px;
+   }
+}
